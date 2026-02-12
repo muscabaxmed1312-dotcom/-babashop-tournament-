@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: babashop-tournament
+    runtime: static
+    buildCommand: ""
+    staticPublishPath: .
+    pullRequestPreviewsEnabled: true
